@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best Tech Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+
+   
+    
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <a href="#" class="logo">
+        <img src="images/avotech-logo.png" alt="Avotech Solutions Logo" class="logo-img"> Avotech Solutions</a>
+
+    <!-- Toggle Button for Mobile -->
+    <div class="toggle-btn" onclick="toggleMenu()">&#9776;</div>
+
+    <!-- Menu Items -->
+    <ul id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li class="service"><a href="#">Services &#9662;</a>
+            <ul class="dropdown">
+                <li><a href="#">CCTV Installation</a></li>
+                <li><a href="#">IT Consulting</a></li>
+                <li><a href="#">Digital Marketing</a></li>
+                <li><a href="#">Tech Support</a></li>
+                <li><a href="#">E-commerce Solutions</a></li>
+                <li><a href="#">Software Development</a></li>
+                <li><a href="#web-dev">Web Development</a></li>
+                <li><a href="#">Training & Education</a></li>
+            </ul>
+        </li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="#" class="cta-button">Request a Quote</a></li>
+    </ul>
+</nav>
+
+<!--hero section-->
+<section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <h1>Powering Businesses with Advanced Tech Solutions</h1>
+        <p> From Web Development to CCTV installation, we provide innovative technology solutions that drive success for small businesses and enterprises.</p>
+        <a href="#contact" class="cta-button">Request a Free Quote Today</a>
+    </div>
+</section>
+
+<section class="services" id="our-services">
+    <h2>Comprehensive Technology Solutions for Every Business</h2>
+    <p>From security systems to software development, we provide innovative technology solutions that help businesses grow and succeed.</p>
+    
+    <div class="services-grid">
+
+        <!-- Web Development -->
+        <div class="service-item">
+            <img src="images/webdevelopment.png" alt="Web Development">
+            <h3>Web Development</h3>
+            <p class="service-description">Create a lasting digital impression with our web development services. We build responsive, SEO-optimized websites that convert visitors into customers. <span class="more-text">Our websites are designed for performance, security, and easy navigation to enhance user experience and search engine rankings.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+
+        <!-- CCTV Installation -->
+        <div class="service-item">
+            <img src="images/cctvcam.png" alt="CCTV Installation">
+            <h3>CCTV Installation</h3>
+            <p class="service-description">Keep your property secure with professional CCTV installation. We offer advanced surveillance solutions, providing real-time monitoring and remote access to ensure the safety of your business. <span class="more-text">Our systems are customizable to your specific needs, offering HD resolution, night vision, and motion detection features.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+        
+        <!-- IT Consulting -->
+        <div class="service-item">
+            <img src="images/consultation.png" alt="IT Consulting">
+            <h3>IT Consulting</h3>
+            <p class="service-description">Enhance your business operations with expert IT consulting. Our team provides tailored strategies to streamline workflows, integrate new technologies, and boost overall efficiency. <span class="more-text">We specialize in cloud computing, data migration, and cybersecurity planning.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+        
+        <!-- Digital Marketing -->
+        <div class="service-item">
+            <img src="images/digitalmarket.png" alt="Digital Marketing">
+            <h3>Digital Marketing</h3>
+            <p class="service-description">Expand your online presence with our digital marketing solutions. From SEO to social media campaigns, we help you grow your brand and reach your target audience effectively. <span class="more-text">Our services include content marketing, pay-per-click advertising, and email marketing strategies.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+
+         <!-- Tech Support -->
+         <div class="service-item">
+            <img src="images/techsupport.png" alt="Tech Support">
+            <h3>Tech Support</h3>
+            <p class="service-description">Experience uninterrupted business operations with our reliable tech support. We offer 24/7 assistance to address technical issues quickly and keep your systems running smoothly. <span class="more-text">Our team is equipped to handle a wide range of technical challenges, ensuring minimal downtime for your business.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+        
+        <!-- E-commerce Solutions -->
+        <div class="service-item">
+            <img src="images/ecommerce.png" alt="E-commerce Solutions">
+            <h3>E-commerce Solutions</h3>
+            <p class="service-description">Maximize your sales potential with our custom e-commerce solutions. We design scalable and secure platforms that help you sell your products effortlessly online. <span class="more-text">Our e-commerce services include payment gateway integration, inventory management, and a user-friendly interface that enhances customer experience.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+
+        <!-- Software Development -->
+        <div class="service-item">
+            <img src="images/software.png" alt="Software Development">
+            <h3>Software Development</h3>
+            <p class="service-description">Turn your ideas into cutting-edge software applications. Our development team builds tailored solutions that cater to your business needs, ensuring seamless user experiences. <span class="more-text">We offer end-to-end development services from planning, coding, and testing to deployment and maintenance.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+
+        <!-- Training and Education -->
+        <div class="service-item">
+            <img src="images/education.png" alt="Training and Education">
+            <h3>Training and Education</h3>
+            <p class="service-description">Empower your team with our tech training programs. We provide comprehensive educational resources and courses to keep your staff skilled and ready for the latest technological advancements. <span class="more-text">Our training covers cybersecurity, cloud technologies, software development, and more.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+
+        <div class="service-item">
+            <img src="images/wordpress.png" alt="WordPress & SEO Services">
+            <h3>WordPress Development & SEO Services</h3>
+            <p class="service-description">Build a powerful online presence with our combined WordPress development and SEO services. We create custom WordPress websites that are optimized for performance, security, and user experience, while also implementing advanced SEO strategies to boost your search engine rankings and drive organic traffic. <span class="more-text">From theme customization and plugin integration to keyword optimization and content marketing, our holistic approach ensures your website not only looks great but also reaches your target audience effectively.</span></p>
+            <button class="read-more-btn">Read More</button>
+        </div>
+    </div>
+</section>
+
+<!--Testimonial section-->
+<section id="testimonials" class="testimonial-section">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonial-container">
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="images/client1.jpg" alt="Client 1">
+                <div class="client-info">
+                    <h4>Khadija</h4>
+                    <p>CEO, GAYO</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">"Avotech Solutions provided outstanding service and support. Our new website is top-notch, and we couldn't be happier!"</p>
+            <div class="rating">
+                <span>★★★★★</span>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="images/client2.jpg" alt="Client 2">
+                <div class="client-info">
+                    <h4>Seluu Eric</h4>
+                    <p>Founder, ElJOY Co.</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">"The e-commerce platform they developed for us has increased our sales significantly. Highly recommended!"</p>
+            <div class="rating">
+                <span>★★★★☆</span>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="images/client2.jpg" alt="Client 2">
+                <div class="client-info">
+                    <h4>Richard</h4>
+                    <p>Founder, RICHE@Co.</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">"The e-commerce platform they developed for us has increased our sales significantly. Highly recommended!"</p>
+            <div class="rating">
+                <span>★★★★☆</span>
+            </div>
+        </div>
+        <div class="testimonial-card">
+            <div class="testimonial-header">
+                <img src="images/client2.jpg" alt="Client 2">
+                <div class="client-info">
+                    <h4>PROF</h4>
+                    <p>Founder, Caleb Media Consult.</p>
+                </div>
+            </div>
+            <p class="testimonial-quote">"The e-commerce platform they developed for us has increased our sales significantly. Highly recommended!"</p>
+            <div class="rating">
+                <span>★★★★☆</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="submit-review" class="review-section">
+    <h2>Submit Your Review</h2>
+    <form id="review-form">
+        <div class="form-group">
+            <label for="reviewename">Name:</label>
+            <input type="text" id="reviewename"  required autocomplete="additional-name">
+        </div>
+        
+        <div class="form-group">
+            <label for="reviewer-rating" id="reviewer-rating" name="reviewer-rating">Rating:</label>
+            <div class="star-rating">
+                <input type="radio" id="star5" name="rating" value="5" required><label for="star5">★</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                <input type="radio" id="star1" name="rating" value="1"><label for="star1">★</label>
+            </div>
+        </div>
+        
+        <div class="form-group">
+            <label for="reviewer-comment">Comment:</label>
+            <textarea id="reviewer-comment" name="comment" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit">Submit Review</button>
+    </form>
+</section>
+
+<!-- Blog section -->
+<section id="blog"></section>
+    <div class="container">
+      <h1>Our Blog & Resources</h1>
+      <p>Stay updated with the latest insights, tips, and news from Avotech Solutions.</p>
+
+      <div class="blog-posts">
+        <div class="blog-post">
+          <img src="post1.jpg" alt="Post 1">
+          <h2><a href="post1.html">How to Leverage Cloud Computing for Your Business</a></h2>
+          <p>Discover the benefits of cloud computing and how it can improve your business efficiency...</p>
+          <a href="post1.html" class="btn">Read More</a>
+        </div>
+
+        <div class="blog-post">
+          <img src="post2.jpg" alt="Post 2">
+          <h2><a href="post2.html">Cybersecurity Tips for Small Businesses</a></h2>
+          <p>Learn the essential steps to protect your business from cyber threats and ensure data security...</p>
+          <a href="post2.html" class="btn">Read More</a>
+        </div>
+
+        <!-- Add more blog posts here -->
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- FAQ Section -->
+<section id="faq">
+    <div class="container">
+      <h1>Frequently Asked Questions</h1>
+      <p>Find answers to some of the most common questions about our services and processes.</p>
+      <div class="faq-item">
+        <button class="faq-question">1. What services does Avotech Solutions provide?</button>
+        <div class="faq-answer">
+          <p>We offer a range of IT solutions including cloud computing, cybersecurity, software development, and IT consulting. Our goal is to provide businesses with technology solutions that are scalable, secure, and tailored to their needs.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">2. How does the onboarding process work?</button>
+        <div class="faq-answer">
+          <p>Our onboarding process starts with an initial consultation where we assess your business needs and discuss how we can help. After that, we create a customized strategy and set clear goals to ensure successful project delivery.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">3. What is your pricing structure?</button>
+        <div class="faq-answer">
+          <p>Our pricing depends on the scope and complexity of the project. We offer flexible packages that suit businesses of all sizes, with transparent pricing and no hidden costs.</p>
+        </div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">4. How long does it take to complete a project?</button>
+        <div class="faq-answer">
+          <p>The duration of a project varies depending on its size and complexity. After assessing your needs, we provide an estimated timeline and work efficiently to meet your deadlines.</p>
+        </div>
+      </div>
+      <!-- Add more FAQ items as needed -->
+    </div>
+  </section>
+
+  
+ <!-- Contact Us Section -->
+<section id="contact" class="contact-section">
+    <div class="contact-container">
+      <h1>Contact Us</h1>
+      <p>We're here to help. Drop us a message or get in touch through the following methods:</p>
+      
+      <!-- Contact Information -->
+      <div class="contact-info">
+        <div class="contact-item">
+          <h2>Email Us</h2>
+          <p><a href="mailto:info@avotechsolutions.com">info@avotechsolutions.com</a></p>
+        </div>
+        <div class="contact-item">
+          <h2>Call Us</h2>
+          <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        </div>
+        <div class="contact-item">
+          <h2>Visit Us</h2>
+          <p>123 Tech Street, Silicon Valley, CA</p>
+        </div>
+      </div>
+      
+      <!-- Contact Form -->
+      <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form id="contact-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          
+          <button type="submit" class="btn">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+   <!-- Footer -->
+<footer id="footer" class="footer">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-section">
+        <h2>About Us</h2>
+        <p>At Avotech Solutions, we provide cutting-edge technology solutions tailored to meet the needs of your business. Learn more about us <a href="aboutUs.html">here</a>.</p>
+      </div>
+      <div class="footer-section">
+        <h2>Quick Links</h2>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#our-services">Services</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@avotechsolutions.com">info@avotechsolutions.com</a></p>
+        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p>Address: 123 Tech Street, Silicon Valley, CA</p>
+      </div>
+      <div class="footer-section">
+        <h2>Follow Us</h2>
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank" class="social-icon facebook" title="Facebook">F</a>
+          <a href="https://x.com" target="_blank" class="social-icon twitter" title="X">X</a>
+          <a href="https://linkedin.com" target="_blank" class="social-icon linkedin" title="LinkedIn">L</a>
+          <a href="https://instagram.com" target="_blank" class="social-icon instagram" title="Instagram">I</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="currentYear"></span> Avotech Solutions. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTop" class="scroll-to-top" title="Go to Top">▲</button>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
